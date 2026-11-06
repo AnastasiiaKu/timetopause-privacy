@@ -4,76 +4,75 @@
 
 ## Privacy Policy
 
-**Effective date:** 1 June 2025 · **Last updated:** 6 June 2026  
+**Effective date:** 1 June 2025 · **Last updated:** 6 November 2026  
 **App:** Time to Pause · **Developer:** APK Studio
 
 ---
 
 ### Overview
 
-Time to Pause is a mindfulness bell and breathing exercise app. It is designed with privacy at its core — the app does not collect, transmit, or share any personal data whatsoever.
+Time to Pause is a guided breathing app with a private symptom diary. There are no accounts, no sign-ins and no ads. Your breathing preferences and your symptom diary are stored only on your device. The app sends anonymous usage statistics, described below.
 
 ---
 
-### Data We Collect
+### Data Stored Only on Your Device
 
-**None.** Time to Pause does not collect any personal information, usage analytics, crash reports, device identifiers, location data, or any other form of user data. There are no accounts, no sign-ins, no analytics SDKs, no advertising SDKs, and no third-party services that receive data from this app.
+- Your breathing pattern and number of cycles
+- Display preferences, such as the order of the Track sections and which ones are open
+- Your symptom diary: daily severity scores, and any symptoms you add or hide
 
----
-
-### Data Stored on Your Device
-
-The app stores the following information locally on your device using Android SharedPreferences:
-
-- Your bell schedule preferences (interval, active hours, active days)
-- Your chosen bell sound
-- Notification permission state
-- Pending Android alarm entries (used to trigger the bell)
-
-This data never leaves your device. It is not transmitted to any server, cloud service, or third party.
+This data never leaves your device. It is not sent to us, to any server, cloud service or third party, and it is not included in the usage statistics.
 
 ---
 
-### Data Retention
+### Anonymous Usage Statistics
 
-Since Time to Pause does not collect or transmit any user data to external servers, **there is no data retained by the developer or any third party**. All preferences and settings are stored exclusively on your device for as long as the app is installed.
+To understand which parts of the app are used, Time to Pause uses Google Firebase Analytics. It records events such as opening the app, opening the support page, and starting or finishing a breathing exercise (with the pattern and number of cycles). Firebase also records standard app and device information, such as app version, device model, operating system, approximate region and an app-instance identifier.
 
-**When you uninstall the app, all locally stored data is permanently and automatically deleted by the Android operating system.** There is no residual data, no backups on our servers, and no way for us to recover any information after uninstallation.
-
-You may also clear the app's data at any time through your device's Settings > Apps > Time to Pause > Storage > Clear Data. This will reset all preferences to their defaults.
+These statistics do not include your name, email address, contact details or symptom diary. They are processed by Google under the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ---
 
-### Data Sharing
+### Tips
 
-We do not share any data with third parties because we do not collect any data. There are no analytics providers, advertising networks, or data brokers involved in this app.
+Optional tips are processed by Google Play. We receive confirmation that a tip was made, but never your payment details.
 
 ---
 
-### Notifications & Permissions
+### Data Retention and Deletion
 
-Time to Pause uses Android's local notification system to deliver mindfulness bells. Notifications are generated entirely on-device using scheduled alarms. They do not contact any server, and no push notification service (such as Firebase Cloud Messaging) is used.
+Data on your device stays there for as long as the app is installed. **When you uninstall the app, Android permanently deletes it.** You can also clear it at any time in Settings > Apps > Time to Pause > Storage > Clear data.
 
-The app may request the following permissions:
+Anonymous usage statistics are kept by Google Firebase Analytics for the retention period set for our Analytics account, and then deleted automatically.
 
-- **POST_NOTIFICATIONS** — to display bell reminders
-- **VIBRATE** — to provide haptic feedback with bells
-- **SCHEDULE_EXACT_ALARM** — to schedule bells at precise times
-- **RECEIVE_BOOT_COMPLETED** — to restore scheduled bells after device restart
+---
 
-None of these permissions are used to collect or transmit data.
+### Permissions
+
+- **INTERNET** — to send anonymous usage statistics and process tips
+- **ACCESS_NETWORK_STATE** — to check for a connection before sending statistics or starting a tip
+- **VIBRATE** — for gentle haptic cues during breathing
+- **BILLING** — for optional tips through Google Play
+
+The app does not send notifications.
+
+---
+
+### Health Information
+
+Time to Pause is not a medical device. The symptom diary is for your own notes; it is not a diagnosis or a substitute for professional advice, and its contents are never sent anywhere.
 
 ---
 
 ### Children's Privacy
 
-This app does not knowingly collect any information from anyone, including children under the age of 13. Since no data is collected from any user, the app is compliant with COPPA and similar regulations.
+This app is not directed at children under 13 and does not knowingly collect personal information from them.
 
 ---
 
 ### Security
 
-Because no personal data is collected or transmitted, there is no risk of data breach from our side. Your preferences are protected by Android's standard app sandboxing mechanism.
+Data on your device is protected by Android's standard app sandboxing. Usage statistics are sent to Google over encrypted connections.
 
 ---
 
@@ -83,15 +82,9 @@ If we update this privacy policy, the revised version will be posted at this URL
 
 ---
 
-### Wellness Disclaimer
-
-This app is not a medical device and is not a substitute for professional advice.
-
----
-
 ## Terms of Use
 
-Time to Pause is provided "as is" for personal, non-commercial use, without warranties of any kind. APK Studio is not liable for missed notifications, data loss, or any direct or indirect damages arising from use of the app, which ultimately depends on your device's notification settings, battery optimiser, and OS state.
+Time to Pause is provided "as is" for personal, non-commercial use, without warranties of any kind. APK Studio is not liable for data loss or any direct or indirect damages arising from use of the app.
 
 You may not reverse-engineer, modify, or redistribute the app without permission. By using Time to Pause you acknowledge that you have read and understood these terms.
 
